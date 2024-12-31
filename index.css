@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'zajno';
+    src: url('./fonts/f1.woff2');
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.project .first {
+    transition: all 0.3s ease-in-out;
+}
+
+.project:hover .first {
+    color: #FF3928;
+}
+
